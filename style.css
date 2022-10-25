@@ -1,0 +1,114 @@
+html{
+    height: 100%;
+    width: 100%;
+    background-color: #CFB7AB;
+  }
+  header{
+    position: absolute;
+    top:1px;
+    width: 100%;
+    background-color: #9E8C83;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 10px;
+    
+    
+  }
+  .container{
+    width: 100%;
+    height: 40%;
+    background-color: #D7987A;
+    position: absolute;
+    top: 100px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: dotted black;
+    
+  }
+  p1{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 90px;
+    left: 100px;
+  }
+  p2{
+    width: 300px;
+    height: 130px;
+    position: absolute;
+    top: 90px;
+    right: 100px;
+  }
+  
+  .imageone{
+    position: fixed;
+    right: 20px;
+    top: 495px;
+  }
+  
+  
+  .imagetwo{
+    position: fixed;
+    left: 20px;
+    top: 150px;
+    
+  }
+  .imagethree{
+    position: fixed;
+    left: 20px;
+    top: 495px;
+  }
+  .imagefour{
+    position: fixed;
+    right: 20px;
+    top: 150px;
+    
+  }
+  p3{
+    position: fixed;
+    left: 350px;
+    top: 150px;
+    height: 300px;
+    width: 200px;
+  }
+  p4{
+    position: fixed;
+    left: 350px;
+    top: 495px;
+    height: 300px;
+    width: 200px;
+    }
+  
+  p5{
+    position: fixed;
+    right: 350px;
+    top: 150px;
+    height: 300px;
+    width: 200px;
+  }
+  p6{
+    position: fixed;
+    right: 350px;
+    top: 495px;
+    height: 300px;
+    width: 200px;
+  }
+  
+  @media screen and (max-width: 800px) 
+    {p1,p2,p3,p4,p5,p6,imageone,imagetwo,imagethree,imagefour}
+  width: 200px;
+  display: inline-block;
+  
+  
+  {
+  
+  @media screen and (min-width: 800px)
+    {p1,p2,p3,p4,p5,p6,imageone,imagetwo,imagethree,imagefour}
+  width: 250px;
+  margin: 8px;
+  
+    
+    
+  }
